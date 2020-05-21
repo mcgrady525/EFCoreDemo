@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreDemo.Configuration", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreDemo.Disconnected", "EFCoreDemo.Disconnected\EFCoreDemo.Disconnected.csproj", "{E485CB19-A193-4120-8DC6-63B8AA12D646}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreDemo.Raw", "EFCoreDemo.Raw\EFCoreDemo.Raw.csproj", "{30160BAC-401C-4749-8FCD-C52BD95F43D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E485CB19-A193-4120-8DC6-63B8AA12D646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E485CB19-A193-4120-8DC6-63B8AA12D646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E485CB19-A193-4120-8DC6-63B8AA12D646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30160BAC-401C-4749-8FCD-C52BD95F43D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30160BAC-401C-4749-8FCD-C52BD95F43D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30160BAC-401C-4749-8FCD-C52BD95F43D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30160BAC-401C-4749-8FCD-C52BD95F43D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
