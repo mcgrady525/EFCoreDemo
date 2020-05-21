@@ -19,6 +19,7 @@ namespace EFCoreDemo.FirstApp
             }
 
             Console.WriteLine("OK");
+            Console.ReadKey();
         }
     }
 }
