@@ -1,17 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EFCoreDemo.DBInit
 {
-    public class EFCoreDemoDbContext : DbContext
+    public class EFCoreDemoDbContext : BaseDbContext
     {
-        public DbSet<Student> Student { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public EFCoreDemoDbContext(bool isLogging = false, bool isNoLock = false) : base("EFCoreDemoDB", isLogging, isNoLock)
         {
-            optionsBuilder.UseSqlServer(@"Server=192.168.1.23;Database=EFCoreDemoDB;Trusted_Connection=True;");
+
         }
+
+        public DbSet<Student> Student { get; set; }
     }
 }
